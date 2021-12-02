@@ -24,13 +24,14 @@ router.post('/delete_course',(req,res,next)=>{
 
 
 router.get('/get_courses',(req,res,next)=>{
+    res.send("Hii")
 
-    Courses.find()
-    .then((result)=>{
-        console.log(result)
+//     Courses.find()
+//     .then((result)=>{
+//         console.log(result)
         
-        res.send(result)
-    })
+//         res.send(result)
+//     })
 })
 
 router.put("/update_status:id",(req,res,next) =>{
