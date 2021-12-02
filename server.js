@@ -22,7 +22,7 @@ app.use(cors());
  app.listen(port,()=>{
 
 
-    console.log('Listen at 3000')
+    console.log('Listen at port 3000')
     
  });
 
